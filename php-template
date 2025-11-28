@@ -1,0 +1,30 @@
+class CustomNavbar extends HTMLElement {
+    connectedCallback() {
+        this.innerHTML = `
+        <nav class="bg-gray-900 py-4 shadow-lg sticky top-0 z-50">
+            <div class="container mx-auto px-4 flex justify-between items-center">
+                <h2 class="text-primary font-bold text-2xl">Brandleaff</h2>
+
+                <ul class="hidden md:flex gap-8 text-gray-300">
+                    <li><a href="#services" class="hover:text-primary">Services</a></li>
+                    <li><a href="#contact" class="hover:text-secondary">Contact</a></li>
+                    <li><a href="#learn" class="hover:text-primary">Learn More</a></li>
+                </ul>
+
+                <button id="mobileMenuBtn" class="md:hidden text-gray-300">
+                    <i data-feather="menu"></i>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobileMenu" class="hidden bg-gray-800 md:hidden px-6 pb-4">
+                <a href="#services" class="block py-2 text-gray-300 hover:text-primary">Services</a>
+                <a href="#contact" class="block py-2 text-gray-300 hover:text-secondary">Contact</a>
+                <a href="#learn" class="block py-2 text-gray-300 hover:text-primary">Learn More</a>
+            </div>
+        </nav>
+        `;
+    }
+}
+
+customElements.define("custom-navbar", CustomNavbar);
