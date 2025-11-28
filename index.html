@@ -1,0 +1,264 @@
+jo code h 
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brandleaff - Digital Marketing & Social Media Services</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#6EE7B7',
+                        secondary: '#A78BFA',
+                        dark: '#0F172A'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-dark text-gray-200 min-h-screen">
+    <custom-navbar></custom-navbar>
+    
+    <main class="container mx-auto px-4 py-12">
+        <!-- Hero Section -->
+        <section class="flex flex-col md:flex-row items-center justify-between gap-12 mb-24">
+            <div class="md:w-1/2">
+                <h1 class="text-4xl md:text-5xl font-bold mb-6 text-primary">Grow Your Business <span class="text-secondary">Digitally</span></h1>
+                <p class="text-xl mb-8 text-gray-300">Professional social media management and content creation for small businesses looking to establish their online presence.</p>
+                <div class="flex gap-4">
+                    <a href="#services" class="bg-primary hover:bg-primary/90 text-dark font-bold py-3 px-6 rounded-lg transition">Our Services</a>
+                    <a href="#contact" class="border border-secondary hover:bg-secondary/10 text-secondary font-bold py-3 px-6 rounded-lg transition">Contact Us</a>
+                </div>
+            </div>
+            <div class="md:w-1/2">
+                <img src="http://static.photos/technology/640x360/42" alt="Digital Marketing" class="rounded-xl shadow-2xl">
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="mb-24">
+            <h2 class="text-3xl font-bold mb-12 text-center text-primary">Our <span class="text-secondary">Services</span></h2>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Social Media Management -->
+                <div class="bg-gray-800 p-6 rounded-xl hover:shadow-lg hover:shadow-primary/20 transition">
+                    <div class="bg-primary/10 p-4 rounded-lg w-fit mb-4">
+                        <i data-feather="instagram" class="text-primary w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-primary">Social Media Management</h3>
+                    <p class="mb-4 text-gray-300">Consistent posting and creative support for your business.</p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-center gap-2"><i data-feather="check" class="w-4 h-4 text-secondary"></i> Monthly content planning</li>
+                        <li class="flex items-center gap-2"><i data-feather="check" class="w-4 h-4 text-secondary"></i> Feed posts + stories</li>
+                        <li class="flex items-center gap-2"><i data-feather="check" class="w-4 h-4 text-secondary"></i> Reels cover templates</li>
+                        <li class="flex items-center gap-2"><i data-feather="check" class="w-4 h-4 text-secondary"></i> Highlight icons</li>
+                        <li class="flex items-center gap-2"><i data-feather="check" class="w-4 h-4 text-secondary"></i> Profile optimization</li>
+                    </ul>
+                    <a href="#contact" class="text-secondary hover:text-secondary/80 font-medium flex items-center gap-2">
+                        Get Started <i data-feather="arrow-right" class="w-4 h-4"></i>
+                    </a>
+                </div>
+
+                <!-- Content Creation -->
+                <div class="bg-gray-800 p-6 rounded-xl hover:shadow-lg hover:shadow-secondary/20 transition">
+                    <div class="bg-secondary/10 p-4 rounded-lg w-fit mb-4">
+                        <i data-feather="image" class="text-secondary w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-secondary">Content Creation</h3>
+                    <p class="mb-4 text-gray-300">Clean and modern designs for your small business.</p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-center gap-2"><i data-feather="check" class="w-4 h-4 text-primary"></i> Instagram post designs</li>
+                        <li class="flex items-center gap-2"><i data-feather="check" class="w-4 h-4 text-primary"></i> Story templates</li>
+                        <li class="flex items-center gap-2"><i data-feather="check" class="w-4 h-4 text-primary"></i> Reels covers</li>
+                        <li class="flex items-center gap-2"><i data-feather="check" class="w-4 h-4 text-primary"></i> Festive & promotional posts</li>
+                        <li class="flex items-center gap-2"><i data-feather="check" class="w-4 h-4 text-primary"></i> Product/service highlight posts</li>
+                    </ul>
+                    <a href="#contact" class="text-primary hover:text-primary/80 font-medium flex items-center gap-2">
+                        Get Started <i data-feather="arrow-right" class="w-4 h-4"></i>
+                    </a>
+                </div>
+
+                <!-- Strategy Planning -->
+                <div class="bg-gray-800 p-6 rounded-xl hover:shadow-lg hover:shadow-primary/20 transition">
+                    <div class="bg-primary/10 p-4 rounded-lg w-fit mb-4">
+                        <i data-feather="trending-up" class="text-primary w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-primary">Strategy Planning</h3>
+                    <p class="mb-4 text-gray-300">Simple monthly strategies for steady social media growth.</p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-center gap-2"><i data-feather="check" class="w-4 h-4 text-secondary"></i> Monthly content plan</li>
+                        <li class="flex items-center gap-2"><i data-feather="check" class="w-4 h-4 text-secondary"></i> Posting schedule</li>
+                        <li class="flex items-center gap-2"><i data-feather="check" class="w-4 h-4 text-secondary"></i> Growth suggestions</li>
+                        <li class="flex items-center gap-2"><i data-feather="check" class="w-4 h-4 text-secondary"></i> Competitor check</li>
+                        <li class="flex items-center gap-2"><i data-feather="check" class="w-4 h-4 text-secondary"></i> Trend-based ideas</li>
+                    </ul>
+                    <a href="#contact" class="text-secondary hover:text-secondary/80 font-medium flex items-center gap-2">
+                        Get Started <i data-feather="arrow-right" class="w-4 h-4"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Learn More Section -->
+        <section class="mb-24">
+            <h2 class="text-3xl font-bold mb-12 text-center text-secondary">Learn <span class="text-primary">More</span></h2>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Email Marketing -->
+                <div class="bg-gray-800 p-8 rounded-xl">
+                    <h3 class="text-xl font-bold mb-4 text-primary">Email Marketing</h3>
+                    <p class="mb-6 text-gray-300">Professional, simple, and effective email communication for your business.</p>
+                    <div class="mb-6">
+                        <h4 class="font-bold mb-3 text-secondary">WHAT WE OFFER</h4>
+                        <ul class="space-y-2">
+                            <li class="flex items-center gap-2"><i data-feather="mail" class="w-4 h-4 text-primary"></i> Client outreach emails</li>
+                            <li class="flex items-center gap-2"><i data-feather="mail" class="w-4 h-4 text-primary"></i> Follow-up messages</li>
+                            <li class="flex items-center gap-2"><i data-feather="mail" class="w-4 h-4 text-primary"></i> Sample sharing emails</li>
+                            <li class="flex items-center gap-2"><i data-feather="mail" class="w-4 h-4 text-primary"></i> Approval & feedback emails</li>
+                            <li class="flex items-center gap-2"><i data-feather="mail" class="w-4 h-4 text-primary"></i> Monthly updates</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="font-bold mb-3 text-secondary">WHY EMAIL MARKETING MATTERS</h4>
+                        <ul class="space-y-2">
+                            <li class="flex items-center gap-2"><i data-feather="check-circle" class="w-4 h-4 text-secondary"></i> Professional first impression</li>
+                            <li class="flex items-center gap-2"><i data-feather="check-circle" class="w-4 h-4 text-secondary"></i> Clear communication</li>
+                            <li class="flex items-center gap-2"><i data-feather="check-circle" class="w-4 h-4 text-secondary"></i> Helps convert clients</li>
+                            <li class="flex items-center gap-2"><i data-feather="check-circle" class="w-4 h-4 text-secondary"></i> Builds long-term trust</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Why Choose Us -->
+                <div class="bg-gray-800 p-8 rounded-xl">
+                    <h3 class="text-xl font-bold mb-4 text-secondary">Why Choose Brandleaff</h3>
+                    <p class="mb-6 text-gray-300">We specialize in helping small businesses establish their digital presence affordably.</p>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start gap-4">
+                            <div class="bg-primary/10 p-2 rounded-lg">
+                                <i data-feather="dollar-sign" class="text-primary w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold mb-1 text-primary">Affordable Solutions</h4>
+                                <p class="text-gray-300">Professional services at prices small businesses can afford.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start gap-4">
+                            <div class="bg-secondary/10 p-2 rounded-lg">
+                                <i data-feather="clock" class="text-secondary w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold mb-1 text-secondary">Time-Saving</h4>
+                                <p class="text-gray-300">We handle your social media so you can focus on your business.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start gap-4">
+                            <div class="bg-primary/10 p-2 rounded-lg">
+                                <i data-feather="trending-up" class="text-primary w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold mb-1 text-primary">Growth Focused</h4>
+                                <p class="text-gray-300">Strategies designed to help your business grow online.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start gap-4">
+                            <div class="bg-secondary/10 p-2 rounded-lg">
+                                <i data-feather="heart" class="text-secondary w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold mb-1 text-secondary">Personalized Approach</h4>
+                                <p class="text-gray-300">Custom solutions tailored to your specific business needs.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="bg-gray-800 rounded-xl p-8 md:p-12">
+            <h2 class="text-3xl font-bold mb-8 text-center text-primary">Get In <span class="text-secondary">Touch</span></h2>
+            
+            <div class="grid md:grid-cols-2 gap-12">
+                <div>
+                    <h3 class="text-xl font-bold mb-4 text-secondary">Contact Information</h3>
+                    <p class="mb-6 text-gray-300">Ready to grow your business online? Reach out to discuss how we can help.</p>
+                    
+                    <div class="space-y-4">
+                        <div class="flex items-center gap-4">
+                            <div class="bg-primary/10 p-3 rounded-lg">
+                                <i data-feather="mail" class="text-primary w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-medium text-gray-300">Email</h4>
+                                <a href="mailto:hello@brandleaff.com" class="text-primary hover:text-primary/80">hello@brandleaff.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center gap-4">
+                            <div class="bg-secondary/10 p-3 rounded-lg">
+                                <i data-feather="instagram" class="text-secondary w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-medium text-gray-300">Instagram</h4>
+                                <a href="https://instagram.com/brandleaff" target="_blank" class="text-secondary hover:text-secondary/80">@brandleaff</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <form class="space-y-4">
+                        <div>
+                            <label for="name" class="block mb-2 text-gray-300">Your Name</label>
+                            <input type="text" id="name" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="John Doe">
+                        </div>
+                        
+                        <div>
+                            <label for="email" class="block mb-2 text-gray-300">Your Email</label>
+                            <input type="email" id="email" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="john@example.com">
+                        </div>
+                        
+                        <div>
+                            <label for="service" class="block mb-2 text-gray-300">Service Interested In</label>
+                            <select id="service" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
+                                <option value="">Select a service</option>
+                                <option value="social">Social Media Management</option>
+                                <option value="content">Content Creation</option>
+                                <option value="strategy">Strategy Planning</option>
+                                <option value="email">Email Marketing</option>
+                            </select>
+                        </div>
+                        
+                        <div>
+                            <label for="message" class="block mb-2 text-gray-300">Your Message</label>
+                            <textarea id="message" rows="4" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="Tell us about your business needs..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="bg-primary hover:bg-primary/90 text-dark font-bold py-3 px-6 rounded-lg transition w-full">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <custom-footer></custom-footer>
+
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script>feather.replace();</script>
+</body>
+</html>
